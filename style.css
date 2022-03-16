@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    color: whitesmoke;
+    padding:0;
+    margin: 0;
+}
+
+ .header{
+     background: url('./banner.jpg');
+     width: 100%;
+     height: 100vh;
+     background: cover;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     position: absolute;
+    }
+
+    .navbar{
+        display: block;
+        padding: 40px;
+    }
+
+    .navbar-brand{
+        font-size: 25px; 
+       font-weight: bold;
+       font-style: italic;
+       color: white;
+   }
+
+   .nav-item a{
+       color: #fff;
+       font-weight: 500;
+   }
+
+   .nav-item a:hover{
+       color: #74cdeb;
+       transform: translateX(5%);
+   }
+
+   .heading{
+    text-align: center;
+    /* line-height:  */
+    margin-top: 25px;
+}
+
+i{
+    font-size: 40px;
+    line-height: 2;
+    color: #fff;
+    list-style: none;
+}
+
+p{
+    font-weight: 500;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.heading h1{
+    color: #fd9308;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-shadow: 1px 3px #fdb351;
+    /* line-height: 1; */
+}
+
+.heading h3{
+    font-size:25px;
+}
+
+
+.button .btn1{
+    width: 150px;
+    height: 5vh;
+    background: #74cdeb;
+    font-weight: bold;
+}
+
+.button .btn{
+    width: 150px;
+    height: 5vh;
+    background: #fdb351;
+    font-weight: bold;
+}
+
+.heading2{
+    text-align: center;
+}
+
+.heading2 .sec{
+    color: gray;
+    font-size: 70px;
+    line-height: 3;
+    text-shadow: 1px 3px darkgray;
+}
+
+
+
+
+                                    
+
+
+@media  (max-width:760px) {
+    h1{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .heading{
+        text-align: center;
+        line-height: 3;
+        margin-top: 60px;
+    }
+    
+    .heading h1{
+        color: #fd9308;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-shadow: 1px 3px #fdb351;
+        line-height: 1;
+    }
+    
+    .heading h3{
+        font-size:20px;
+    }
+    
+    .btn1{
+        padding: 5px;
+        height: 7vh;
+        width: 25vh;
+        line-height: 2;
+        background: #74cdeb;
+    }
+    
+    .btn{
+        padding: 10px;
+        height: 7vh;
+        width: 25vh;
+        /* line-height: 2; */
+        background-color: #fdb351;
+    }
+    
+    
+    .heading2{
+        text-align: center;
+    }
+    
+    .heading2 .sec{
+        color: gray;
+        font-size: 20px;
+        line-height: 5;
+        text-shadow: 1px 3px darkgray;
+    }
+    
+
+} 
